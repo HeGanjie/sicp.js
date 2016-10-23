@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "latest",
+    "stage-2",
+    [
+      "env",
+      {
+        "targets": {
+          "chrome": 53
+        },
+        "loose": true,
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "lodash"
+  ]
+}
